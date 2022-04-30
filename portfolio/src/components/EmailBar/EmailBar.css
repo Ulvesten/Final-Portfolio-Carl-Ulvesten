@@ -1,0 +1,20 @@
+#EmailBar {
+    display: flex;
+    position: fixed;
+    bottom: 60px;
+    right: 40px;
+    z-index: 100;
+    font-size: 2vh;
+    color: yellowgreen;
+}
+#EmailBar__Line {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    margin: auto;
+}
+#EmailBar--Text {
+    text-orientation: mixed;
+    writing-mode: vertical-rl;
+}

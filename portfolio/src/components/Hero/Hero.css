@@ -1,0 +1,23 @@
+#Hero {
+    margin-top: 15vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vh;
+    color: #ffffff;
+}
+#Hero--Greet {
+    color: white;
+}
+#Hero--Greet--Span {
+    color: yellowgreen;
+}
+#Hero--Title {
+    font-size: 9vh;
+    font-weight: 900;
+    margin-top: 0;
+    color: #ffffff;
+}
+#Hero--Title--Span {
+    color: yellowgreen;
+}
+#Hero--Bread {
+}
