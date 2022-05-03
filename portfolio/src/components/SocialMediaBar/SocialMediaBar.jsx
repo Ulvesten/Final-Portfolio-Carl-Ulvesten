@@ -7,6 +7,7 @@ const SocialMediaBar = () => {
     return (
         <div id='SocialMediaBar'>
             <Stack spacing={1}>
+                <p id='SocialMediaBar--Lines'>- - - </p>
                 <IconButton onClick={() => {}}>
                     <a href='https://www.linkedin.com/in/carl-ulvesten-808111238/'>
                         <LinkedInIcon
@@ -15,6 +16,7 @@ const SocialMediaBar = () => {
                         />
                     </a>
                 </IconButton>
+                <p id='SocialMediaBar--Lines'>- - - </p>
                 <IconButton onClick={() => {}}>
                     <a href='https://github.com/Ulvesten'>
                         <GitHubIcon
@@ -23,6 +25,7 @@ const SocialMediaBar = () => {
                         />
                     </a>
                 </IconButton>
+                <p id='SocialMediaBar--Lines'>- - -</p>
             </Stack>
         </div>
     );

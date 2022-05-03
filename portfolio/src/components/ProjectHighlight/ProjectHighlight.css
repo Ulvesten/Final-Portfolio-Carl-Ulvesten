@@ -1,0 +1,82 @@
+#ProjectHighlight {
+    color: white;
+    display: flex;
+    width: 100%;
+    margin-top: 5vh;
+    font-family: roboto;
+    padding-bottom: 0vh;
+    padding: 100px;
+    border-radius: 15px;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+#ProjectHighlight--Text--Div {
+    max-width: 50%;
+}
+#ProjectHighlight--PreTitleDiv {
+    color: yellowgreen;
+}
+#ProjectHighlight--TitleDiv {
+    font-size: 20px;
+}
+#ProjectHighlight--TitleDiv h1 {
+    font-weight: 900;
+    font-style: italic;
+}
+#ProjectHighlight--TextAreaDiv {
+    box-shadow: 0 10px 30px -15px var(--navy-shadow);
+    position: relative;
+    z-index: 10;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #112240;
+    color: yellowgreen;
+    font-size: 16px;
+    max-width: 80%;
+    box-shadow: 5px 5px 10px black;
+}
+#ProjectHighlight--ShowcaseLangDiv {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+    margin: 25px 0px 10px;
+    padding: 0px;
+    list-style: none;
+    gap: 20px;
+    color: yellowgreen;
+    padding-left: 20px;
+}
+
+#Proje #ProjectHighlight--IconsDiv {
+}
+#ProjectHighlight--Image--Div {
+    height: 350px;
+    width: 60%;
+    position: absolute;
+    margin-left: 20%;
+}
+#ProjectHighlight--Image--Div img {
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    transition: transform 100ms;
+    border-radius: 15px;
+    filter: grayscale(100);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+#ProjectHighlight--Image--Div img:hover {
+    filter: none;
+    transform: scale(1.1);
+}
+#ProjectHighlight--GitHub {
+    height: 1em;
+    width: 1em;
+    padding-left: 20px;
+}
+#ProjectHighlight--Link {
+    height: 1em;
+    width: 1em;
+}

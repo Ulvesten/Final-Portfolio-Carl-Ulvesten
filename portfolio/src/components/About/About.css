@@ -3,19 +3,33 @@
     display: flex;
     width: 100%;
     margin-top: 20vh;
+    justify-content: space-between;
+    font-family: roboto;
+    margin-bottom: 30vh;
 }
 
 #About--Image--Div {
-    width: 50%;
+    width: 30%;
+    min-width: 30%;
     object-fit: contain;
-    margin: 0% 5% 5% 0%;
+    margin: 0% 0% 5% 5%;
+    padding-top: 12%;
     max-height: 50vh;
 }
 #About--Image {
     object-fit: contain;
     width: 100%;
     border-radius: 30px 10px 30px 10px;
+    box-shadow: 5px 5px 10px black;
 }
 #About--Text--Div {
+    min-width: 50%;
     padding-top: 10%;
+}
+#About--Title {
+    font-size: 5.5vh;
+    text-shadow: 2px 2px 5px black;
+}
+#About--Text {
+    font-size: 2vh;
 }

@@ -5,7 +5,7 @@
     right: 40px;
     z-index: 100;
     font-size: 2vh;
-    color: yellowgreen;
+    color: rgb(255, 255, 255);
 }
 #EmailBar__Line {
     align-items: center;
@@ -17,4 +17,9 @@
 #EmailBar--Text {
     text-orientation: mixed;
     writing-mode: vertical-rl;
+    font-weight: 500;
+}
+#EmailBar--Text--A {
+    text-decoration: none;
+    color: white;
 }
