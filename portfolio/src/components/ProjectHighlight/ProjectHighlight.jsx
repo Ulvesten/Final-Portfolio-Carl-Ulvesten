@@ -4,43 +4,55 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import { IconButton } from '@mui/material';
 import ArrowUpwardSharpIcon from '@mui/icons-material/ArrowUpwardSharp';
 
-function ProjectHighlight({ Application }) {
+function ProjectHighlight({
+    image,
+    title,
+    github,
+    demo,
+    text,
+    languages,
+    even,
+}) {
     return (
-        <div id='ProjectHighlight'>
-            <div id='ProjectHighlight--Text--Div'>
-                <div id='ProjectHighlight--PreTitleDiv'>
+        <div class={even ? 'ProjectHighlight' : 'ProjectHighlight--Reverse'}>
+            <div class='ProjectHighlight--Text--Div'>
+                <div class='ProjectHighlight--PreTitleDiv'>
                     <p>Featured Project</p>
                 </div>
-                <div id='ProjectHighlight--TitleDiv'>
-                    <h1>{Application.title}</h1>
+                <div class='ProjectHighlight--TitleDiv'>
+                    <h1>{title}</h1>
                 </div>
-                <div id='ProjectHighlight--TextAreaDiv'>{Application.text}</div>
-                <div id='ProjectHighlight--ShowcaseLangDiv'>
-                    <p>{Application.languages}</p>
-                    <p>CSS</p>
-                    <p>Javascript</p>
+                <div class='ProjectHighlight--TextAreaDiv'>{text}</div>
+                <div
+                    class={
+                        even
+                            ? 'ProjectHighlight--ShowcaseLangDiv'
+                            : 'ProjectHighlight--Reverse--ShowcaseLangDiv'
+                    }
+                >
+                    <p>{languages}</p>
                 </div>
-                <div id='ProjectHighlight--IconsDiv'>
-                    <IconButton onClick={() => {}}>
-                        <a href='https://github.com/Ulvesten/TipApp.Github.Io'>
+                <div class='ProjectHighlight--IconsDiv'>
+                    <IconButton disableRipple='false' onClick={() => {}}>
+                        <a href={github}>
                             <GitHubIcon
                                 sx={{ color: '#a8b2d1' }}
-                                id='ProjectHighlight--GitHub'
+                                class='ProjectHighlight--GitHub'
                             />
                         </a>
                     </IconButton>
-                    <IconButton onClick={() => {}}>
-                        <a href={Application.github}>
+                    <IconButton disableRipple='false' onClick={() => {}}>
+                        <a href={demo}>
                             <ArrowUpwardSharpIcon
                                 sx={{ color: '#a8b2d1' }}
-                                id='ProjectHighlight--Link'
+                                class='ProjectHighlight--Link'
                             />
                         </a>
                     </IconButton>
                 </div>
             </div>
-            <div id='ProjectHighlight--Image--Div'>
-                <img src={Application.image} alt='' />
+            <div class='ProjectHighlight--Image--Div'>
+                <img src={image} alt='' />
             </div>
         </div>
     );

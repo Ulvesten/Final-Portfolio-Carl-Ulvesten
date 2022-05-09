@@ -1,5 +1,5 @@
 #Scroll {
-    margin-top: 20vh;
+    margin-top: 10vh;
     display: flex;
     width: 100%;
     margin-bottom: 10vh;
@@ -13,7 +13,7 @@
 }
 #Scroll--img {
     height: 50px;
-    color: white;
-    fill: white;
-    transform: rotate(90deg);
+    fill: var(--deep-text-blue);
+    height: 100px;
+    width: 100px;
 }

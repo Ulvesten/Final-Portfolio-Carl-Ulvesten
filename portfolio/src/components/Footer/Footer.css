@@ -1,0 +1,34 @@
+#Footer {
+    padding-top: 5vh;
+    padding-bottom: 1vh;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    max-height: 6vh;
+    color: var(--light-blue);
+    text-decoration: none;
+    font-size: 1.2vh;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#Footer-Logo {
+    font-size: 3vh;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 2vw;
+    color: var(--light-blue);
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+#Footer-Logo:hover {
+    color: yellowgreen;
+}
+#Footer-Text {
+    font-size: 16px;
+}
+#Footer a {
+    text-decoration: none;
+    color: var(--light-blue);
+    transition: all 0.2s ease-in-out;
+}

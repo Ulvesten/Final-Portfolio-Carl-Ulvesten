@@ -1,0 +1,26 @@
+#Hero--CTA {
+    width: 100%;
+    padding-block: 2%;
+    border-radius: 15px;
+    background-color: transparent;
+    box-shadow: -2px -2px 4px black inset;
+    border: 0;
+    transition: all 0.2s ease-in-out;
+    font-size: 1.5em;
+    font-family: roboto;
+    font-weight: 700;
+    font-style: italic;
+    border: 1px yellowgreen solid;
+    color: #fbf8f1;
+    height: 75px;
+}
+#Hero--CTA a {
+    cursor: pointer;
+}
+#Hero--CTA:focus {
+    outline: none;
+}
+#Hero--CTA:hover {
+    box-shadow: -2px -2px 4px yellowgreen inset;
+    border: 1px yellowgreen solid;
+}

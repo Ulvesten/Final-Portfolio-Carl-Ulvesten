@@ -9,11 +9,10 @@ function Header() {
                     <a href='#About'>
                         <div id='Header-About'>About Me</div>
                     </a>
-                    <a href='#ProjectHighlight'>
+                    <a href='#Projects'>
                         <div id='Header-Projects'>Projects</div>
                     </a>
 
-                    <div id='Header-Contact'>Contact</div>
                     <div id='Header-Resume'>
                         <a href='./assets/Resume.pdf' target='_blank'>
                             <button>Resume</button>

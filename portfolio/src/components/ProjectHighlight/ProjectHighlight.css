@@ -1,5 +1,5 @@
-#ProjectHighlight {
-    color: white;
+.ProjectHighlight {
+    color: var(--dark-blue);
     display: flex;
     width: 100%;
     margin-top: 5vh;
@@ -10,32 +10,31 @@
     padding-left: 0;
     padding-bottom: 0;
 }
-#ProjectHighlight--Text--Div {
+.ProjectHighlight--Text--Div {
     max-width: 50%;
 }
-#ProjectHighlight--PreTitleDiv {
-    color: yellowgreen;
+.ProjectHighlight--PreTitleDiv {
+    color: var(--deep-text-blue);
 }
-#ProjectHighlight--TitleDiv {
+.ProjectHighlight--TitleDiv {
     font-size: 20px;
 }
-#ProjectHighlight--TitleDiv h1 {
+.ProjectHighlight--TitleDiv h1 {
     font-weight: 900;
     font-style: italic;
 }
-#ProjectHighlight--TextAreaDiv {
+.ProjectHighlight--TextAreaDiv {
     box-shadow: 0 10px 30px -15px var(--navy-shadow);
     position: relative;
     z-index: 10;
     padding: 25px;
     border-radius: 10px;
-    background-color: #112240;
-    color: yellowgreen;
+    background-color: var(--deep-text-blue);
+    color: var(--light-blue);
     font-size: 16px;
-    max-width: 80%;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 2px 2px 5px black;
 }
-#ProjectHighlight--ShowcaseLangDiv {
+.ProjectHighlight--ShowcaseLangDiv {
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -44,21 +43,27 @@
     padding: 0px;
     list-style: none;
     gap: 20px;
-    color: yellowgreen;
+    color: var(--dark-blue);
     padding-left: 20px;
 }
+.ProjectHighlight--ShowcaseLangDiv p {
+    text-align: left;
+    word-spacing: 10px;
+}
 
-#Proje #ProjectHighlight--IconsDiv {
+.ProjectHighlight--IconsDiv {
 }
-#ProjectHighlight--Image--Div {
+.ProjectHighlight--Image--Div {
     height: 350px;
-    width: 60%;
+    max-width: 70%;
     position: absolute;
-    margin-left: 20%;
+    right: 500px;
+    max-width: 30%;
+    min-width: 30%;
 }
-#ProjectHighlight--Image--Div img {
+.ProjectHighlight--Image--Div img {
     object-fit: cover;
-    width: 50%;
+    width: 100%;
     height: 100%;
     position: absolute;
     transition: transform 100ms;
@@ -66,17 +71,47 @@
     filter: grayscale(100);
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    box-shadow: 2px 2px 5px black;
 }
-#ProjectHighlight--Image--Div img:hover {
+.ProjectHighlight--Image--Div img:hover {
     filter: none;
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
-#ProjectHighlight--GitHub {
+.ProjectHighlight--GitHub {
     height: 1em;
     width: 1em;
     padding-left: 20px;
+    z-index: 100;
+    fill: var(--deep-text-blue);
 }
-#ProjectHighlight--Link {
+.ProjectHighlight--GitHub:hover {
+    fill: var(--light-blue);
+}
+.ProjectHighlight--Link:hover {
+    fill: var(--light-blue);
+}
+
+a {
+    z-index: 100;
+}
+.ProjectHighlight--Link {
     height: 1em;
     width: 1em;
+    fill: var(--deep-text-blue);
+    z-index: 100;
+}
+.ProjectHighlight--Reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    margin-top: 5vh;
+    color: var(--dark-blue);
+}
+.ProjectHighlight--Reverse img {
+    right: 300px;
+}
+.ProjectHighlight--Reverse--ShowcaseLangDiv {
+    color: var(--dark-blue);
+    word-spacing: 10px;
+    text-align: right;
 }
