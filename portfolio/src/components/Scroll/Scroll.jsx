@@ -12,8 +12,8 @@ const Scroll = ({ Target }) => {
         // Target any descendant with the class of .box - no matter how far down the descendant tree. Uses el.current.querySelectorAll() internally
         gsap.fromTo(
             '#Scroll',
-            {},
-            { y: 50, duration: 1, repeat: -1, yoyo: true },
+            { opacity: 0 },
+            { y: 50, duration: 1, repeat: -1, yoyo: true, opacity: 0.8 },
         );
     }, []);
     return (
