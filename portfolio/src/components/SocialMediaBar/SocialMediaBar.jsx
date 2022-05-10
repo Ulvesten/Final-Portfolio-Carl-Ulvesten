@@ -2,10 +2,28 @@ import './SocialMediaBar.css';
 import { Stack, IconButton } from '@mui/material';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import { gsap } from 'gsap';
+import React from 'react';
+const { useEffect, useRef } = React;
 
 const SocialMediaBar = () => {
+    let el = useRef();
+    let q = gsap.utils.selector(el);
+
+    useEffect(() => {
+        // Target any descendant with the class of .box - no matter how far down the descendant tree. Uses el.current.querySelectorAll() internally
+        gsap.fromTo(
+            q('*'),
+            { x: '-100vh', opacity: 0 },
+            {
+                x: 0,
+                opacity: 1,
+                delay: 2.6,
+            },
+        );
+    }, []);
     return (
-        <div id='SocialMediaBar'>
+        <div id='SocialMediaBar' ref={el}>
             <Stack spacing={1}>
                 <p id='SocialMediaBar--Lines'>- - - </p>
                 <IconButton disableRipple='false' onClick={() => {}}>
