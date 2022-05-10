@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import { gsap } from 'gsap';
+import { Box } from '@mui/material';
 const { useEffect, useRef } = React;
 
 function Header() {
@@ -23,7 +24,7 @@ function Header() {
         <div ref={el}>
             <div id='Header' ref={el}>
                 <div id='Header-Logo'>Carl Ulvesten</div>
-                <div id='Header-SectionsDiv'>
+                <Box id='Header-SectionsDiv'>
                     <a href='#About'>
                         <div id='Header-About'>About Me</div>
                     </a>
@@ -36,7 +37,7 @@ function Header() {
                             <button>Resume</button>
                         </a>
                     </div>
-                </div>
+                </Box>
             </div>
         </div>
     );
