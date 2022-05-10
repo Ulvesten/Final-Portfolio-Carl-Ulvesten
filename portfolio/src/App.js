@@ -10,6 +10,7 @@ import {
     Projects,
     CTA,
     Footer,
+    InTouch,
 } from './components/components';
 
 // Dagens projekt:
@@ -31,9 +32,10 @@ function App() {
                 <Scroll Target={'#Projects'} />
 
                 <Projects />
-                <CTA />
+                <Scroll Target={'#InTouch'} />
+                <InTouch />
+                <CTA position={'center'} padding={'40vh'} />
             </Container>
-            <Footer />
         </div>
     );
 }

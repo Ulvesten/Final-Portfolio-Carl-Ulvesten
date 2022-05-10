@@ -15,9 +15,9 @@ html {
     scroll-behavior: smooth;
 }
 :root {
-    --dark-blue: #0059b2;
-    --light-blue: #007ffe;
+    --dark-blue: #00478d;
+    --light-blue: #0067ce;
     --white: #ffffff;
     --grey-color: #f2f5f8;
-    --deep-text-blue: #0a1929;
+    --deep-text-blue: #112c47;
 }

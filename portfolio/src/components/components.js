@@ -8,6 +8,7 @@ import ProjectHighlight from './ProjectHighlight/ProjectHighlight';
 import Projects from './Projects/Projects.jsx';
 import CTA from './CTA/CTA.jsx';
 import Footer from './Footer/Footer.jsx';
+import InTouch from './InTouch/InTouch.jsx';
 
 export {
     Header,
@@ -20,4 +21,5 @@ export {
     Projects,
     CTA,
     Footer,
+    InTouch,
 };

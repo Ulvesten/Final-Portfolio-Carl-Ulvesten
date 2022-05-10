@@ -1,0 +1,23 @@
+#InTouch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 15vh;
+    padding-bottom: 3vh;
+}
+#InTouch-b {
+    font-size: 20px;
+    color: var(--light-blue);
+}
+#InTouch-h1 {
+    font-size: 40px;
+    margin: 0;
+    color: var(--dark-blue);
+}
+#InTouch-p {
+    color: var(--deep-text-blue);
+    font-size: 16px;
+    max-width: 50%;
+}

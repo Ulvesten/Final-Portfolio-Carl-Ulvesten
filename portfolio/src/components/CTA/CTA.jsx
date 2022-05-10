@@ -1,20 +1,23 @@
 import React from 'react';
 import './CTA.css';
-import Button from '@mui/material/Button';
+import { Box, Button } from '@mui/material';
+import { padding } from '@mui/system';
 
-function CTA() {
+function CTA({ position, padding }) {
     return (
-        <Button
-            variant='contained'
-            size='large'
-            onClick={() => {
-                window.location.href =
-                    'mailto:Ulvesten@icloud.com?subject=Get in Touch!';
-            }}
-            sx={{ padding: '20px 100px' }}
-        >
-            Get in Touch!
-        </Button>
+        <Box textAlign={position} pb={padding}>
+            <Button
+                variant='contained'
+                size='large'
+                onClick={() => {
+                    window.location.href =
+                        'mailto:Ulvesten@icloud.com?subject=Get in Touch!';
+                }}
+                sx={{ padding: '20px 100px' }}
+            >
+                Get in Touch!
+            </Button>
+        </Box>
         // <div>
         //     <a
         //         href='mailto:Ulvesten@icloud.com?subject=Get in Touch!'

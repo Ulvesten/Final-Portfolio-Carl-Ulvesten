@@ -1,8 +1,8 @@
 #Scroll {
-    margin-top: 10vh;
+    margin-top: 5vh;
     display: flex;
     width: 100%;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
 }
 #Scroll--Div {
     display: flex;
