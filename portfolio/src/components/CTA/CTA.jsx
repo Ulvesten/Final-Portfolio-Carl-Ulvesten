@@ -1,11 +1,27 @@
 import React from 'react';
 import './CTA.css';
 import { Box, Button } from '@mui/material';
-import { padding } from '@mui/system';
+import { gsap } from 'gsap';
+const { useEffect, useRef } = React;
 
 function CTA({ position, padding }) {
+    let el = useRef();
+    let q = gsap.utils.selector(el);
+
+    useEffect(() => {
+        // Target any descendant with the class of .box - no matter how far down the descendant tree. Uses el.current.querySelectorAll() internally
+        gsap.fromTo(
+            q('*'),
+            { y: '100vh', opacity: 0 },
+            {
+                y: 0,
+                opacity: 1,
+                delay: 2.4,
+            },
+        );
+    }, []);
     return (
-        <Box textAlign={position} pb={padding}>
+        <Box textAlign={position} pb={padding} ref={el}>
             <Button
                 variant='contained'
                 size='large'

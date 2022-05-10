@@ -17,3 +17,6 @@
     height: 100px;
     width: 100px;
 }
+#Scroll--img:hover {
+    fill: var(--light-blue);
+}

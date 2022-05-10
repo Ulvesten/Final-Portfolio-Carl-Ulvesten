@@ -9,7 +9,6 @@ import {
     EmailBar,
     Projects,
     CTA,
-    Footer,
     InTouch,
 } from './components/components';
 

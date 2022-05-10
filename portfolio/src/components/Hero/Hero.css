@@ -15,35 +15,14 @@
     font-weight: 900;
     margin-top: 0;
     color: var(--dark-blue);
+    margin-bottom: 1vh;
 }
 #Hero--Title--Span {
     color: var(--deep-text-blue);
 }
 #Hero--Bread {
-}
-#Hero--CTA {
-    width: 100%;
-    padding-block: 2%;
-    border-radius: 15px;
-    background-color: transparent;
-    box-shadow: -2px -2px 4px black inset;
-    border: 0;
-    transition: all 0.2s ease-in-out;
-    font-size: 1em;
-    font-family: roboto;
-    font-weight: 700;
-    font-style: italic;
-    border: 1px black solid;
-    color: var(--dark-blue);
-}
-#Hero--CTA a {
-    cursor: pointer;
-}
-#Hero--CTA:focus {
-    outline: none;
-}
-#Hero--CTA:hover {
-    box-shadow: -2px -2px 4px var(--light-blue) inset;
-    border: 1px var(--light-blue) solid;
-    color: var(--light-blue);
+    padding-top: 0;
+    margin-top: 0;
+    right: 10px;
+    font-size: 26px;
 }

@@ -1,5 +1,9 @@
 .App {
-    background-color: var(--white);
+    background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 1) 0%,
+        rgb(228, 228, 228) 100%
+    );
     min-height: 200vh;
     scroll-behavior: smooth;
 }

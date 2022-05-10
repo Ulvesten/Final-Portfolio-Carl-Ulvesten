@@ -1,9 +1,27 @@
 import React from 'react';
 import './Header.css';
+import { gsap } from 'gsap';
+const { useEffect, useRef } = React;
+
 function Header() {
+    let el = useRef();
+    let q = gsap.utils.selector(el);
+
+    useEffect(() => {
+        // Target any descendant with the class of .box - no matter how far down the descendant tree. Uses el.current.querySelectorAll() internally
+        gsap.fromTo(
+            q('div'),
+            { y: '-10vh' },
+            {
+                y: 0,
+                stagger: 0.2,
+                opacity: 1,
+            },
+        );
+    }, []);
     return (
-        <div>
-            <div id='Header'>
+        <div ref={el}>
+            <div id='Header' ref={el}>
                 <div id='Header-Logo'>Carl Ulvesten</div>
                 <div id='Header-SectionsDiv'>
                     <a href='#About'>
