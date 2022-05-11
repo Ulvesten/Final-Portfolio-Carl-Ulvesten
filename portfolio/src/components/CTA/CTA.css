@@ -24,3 +24,12 @@
     box-shadow: -2px -2px 4px yellowgreen inset;
     border: 1px yellowgreen solid;
 }
+@media (max-width: 600px) {
+    #Hero--CTA {
+        justify-content: center;
+        text-align: center;
+    }
+    #Box {
+        padding-bottom: 35vh;
+    }
+}

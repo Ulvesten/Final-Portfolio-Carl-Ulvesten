@@ -38,3 +38,8 @@
     font-size: 16px;
     cursor: none;
 }
+@media (max-width: 900px) {
+    #EmailBar {
+        display: none;
+    }
+}

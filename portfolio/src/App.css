@@ -8,5 +8,5 @@
     scroll-behavior: smooth;
 }
 #App--Container {
-    padding: 0;
+    padding-block: 0;
 }

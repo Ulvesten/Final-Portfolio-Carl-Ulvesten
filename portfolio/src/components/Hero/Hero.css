@@ -26,3 +26,15 @@
     right: 10px;
     font-size: 26px;
 }
+@media (max-width: 600px) {
+    #Hero--Title {
+        font-size: 7vh;
+        font-weight: 900;
+        margin-top: 0;
+        color: var(--dark-blue);
+        margin-bottom: 1vh;
+    }
+    #Hero--Title--Span {
+        color: var(--deep-text-blue);
+    }
+}

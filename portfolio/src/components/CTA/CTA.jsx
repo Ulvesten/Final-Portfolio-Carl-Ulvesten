@@ -21,7 +21,7 @@ function CTA({ position, padding }) {
         );
     }, []);
     return (
-        <Box textAlign={position} pb={padding} ref={el}>
+        <Box textAlign={position} pb={padding} ref={el} id='Box'>
             <Button
                 variant='contained'
                 size='large'

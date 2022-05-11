@@ -67,3 +67,8 @@
     color: var(--deep-text-blue);
     border-color: white;
 }
+@media (max-width: 900px) {
+    #Header-SectionsDiv {
+        display: none;
+    }
+}

@@ -51,11 +51,10 @@
 }
 
 .ProjectHighlight--Image--Div {
-    height: 350px;
+    height: 36vh;
     max-width: 70%;
     position: absolute;
-    right: 500px;
-    max-width: 30%;
+    right: 26vw;
     min-width: 30%;
 }
 .ProjectHighlight--Image--Div img {
@@ -105,10 +104,18 @@ a {
     color: var(--dark-blue);
 }
 .ProjectHighlight--Reverse img {
-    right: 300px;
+    right: 17vw;
 }
 .ProjectHighlight--Reverse--ShowcaseLangDiv {
     color: var(--dark-blue);
     word-spacing: 10px;
     text-align: right;
+}
+@media (max-width: 1100px) {
+    .ProjectHighlight--Image--Div {
+        display: none;
+    }
+    .ProjectHighlight--Text--Div {
+        max-width: 100%;
+    }
 }

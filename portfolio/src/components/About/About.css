@@ -30,3 +30,14 @@
 #About--Text {
     font-size: 2vh;
 }
+@media (max-width: 600px) {
+    #About {
+        flex-direction: column;
+        max-width: 90%;
+    }
+    #About--Image--Div {
+        width: 90%;
+        object-fit: contain;
+        padding-top: 12%;
+    }
+}
