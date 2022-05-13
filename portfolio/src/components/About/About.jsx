@@ -7,16 +7,15 @@ function About() {
             <div id='About--Text--Div'>
                 <h1 id='About--Title'>CARL ULVESTEN</h1>
                 <p id='About--Text'>
-                    Hello! My name is Brittany and I enjoy creating things that
-                    live on the internet. My interest in web development started
-                    back in 2012 when I decided to try editing custom Tumblr
-                    themes — turns out hacking together a custom reblog button
-                    taught me a lot about HTML & CSS! <br /> <br /> Fast-forward
-                    to today, and I’ve had the privilege of working at an
-                    advertising agency, a start-up, a huge corporation, and a
-                    student-led design studio. My main focus these days is
-                    building accessible, inclusive products and digital
-                    experiences at Upstatement for a variety of clients.
+                    Hello! My name is Carl and i'm a aspiring Junior Software
+                    Developer looking for my next challenge. I started
+                    programing back in 2016 in high school - this sparked a
+                    flame within me, I knew then that programing was my calling.
+                    <br />
+                    <br /> I never say no to tackle a challenge and learn
+                    something new on the way. I've Recently been focusing on the
+                    MERN(MongoDB, Express.JS, React.JS, Node.JS) Stack. Im on
+                    the end stretch of a intense Bootcamp hosted by 'Techover'
                 </p>
             </div>
             <div id='About--Image--Div'>

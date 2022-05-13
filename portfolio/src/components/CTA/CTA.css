@@ -30,6 +30,8 @@
         text-align: center;
     }
     #Box {
+        justify-content: center;
+        text-align: center;
         padding-bottom: 35vh;
     }
 }

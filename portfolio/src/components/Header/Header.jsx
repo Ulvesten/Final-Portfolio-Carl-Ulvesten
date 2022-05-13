@@ -16,7 +16,6 @@ function Header() {
             {
                 y: 0,
                 stagger: 0.2,
-                opacity: 1,
             },
         );
     }, []);

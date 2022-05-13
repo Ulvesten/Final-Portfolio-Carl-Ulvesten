@@ -6,6 +6,8 @@
 }
 #Hero--Greet {
     color: var(--light-blue);
+    padding: 0;
+    margin: 0;
 }
 #Hero--Greet--Span {
     color: var(--light-blue);

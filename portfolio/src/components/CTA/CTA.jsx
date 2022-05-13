@@ -12,7 +12,7 @@ function CTA({ position, padding }) {
         // Target any descendant with the class of .box - no matter how far down the descendant tree. Uses el.current.querySelectorAll() internally
         gsap.fromTo(
             q('*'),
-            { y: '100vh', opacity: 0 },
+            { y: '50vh', opacity: 0 },
             {
                 y: 0,
                 opacity: 1,

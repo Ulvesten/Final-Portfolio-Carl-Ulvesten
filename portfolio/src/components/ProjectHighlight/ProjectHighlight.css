@@ -64,7 +64,7 @@
     position: absolute;
     transition: transform 100ms;
     border-radius: 15px;
-    filter: grayscale(100);
+    filter: grayscale(100)  ;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     box-shadow: 2px 2px 5px black;

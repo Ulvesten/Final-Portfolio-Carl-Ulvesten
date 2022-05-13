@@ -1,6 +1,6 @@
 #Header {
     padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding-bottom: 1.2vh;
     display: flex;
     justify-content: space-between;
     font-family: 'Roboto', sans-serif;
@@ -17,13 +17,12 @@
     );
 }
 #Header-Logo {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     font-size: 5vh;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Kaushan Script', cursive;
     padding-left: 2vw;
     color: #ffffff;
-    text-shadow: 3px 3px 5px #000000;
-    cursor: pointer;
-    /* transition: all 0.5s ease-in-out; */
 }
 #Header-Logo:hover {
     color: var(--grey-color);
@@ -47,13 +46,13 @@
     transition: all 0.2s ease-in-out;
 }
 #Header a:hover {
-    color: var(--deep-text-blue);
+    color: var(--light-blue);
 }
 #Header-Resume button {
     padding: 0.6em 1em 0.6em 1em;
     border-radius: 1em;
     border: solid 3px;
-    border-color: var(--dark-blue);
+    border-color: var(--light-blue);
     background: transparent;
     text-decoration: none;
     font-family: roboto;
@@ -64,8 +63,8 @@
 }
 #Header-Resume button:hover {
     cursor: pointer;
-    color: var(--deep-text-blue);
-    border-color: white;
+    color: var(--light-blue);
+    border-color: var(--dark-blue);
 }
 @media (max-width: 900px) {
     #Header-SectionsDiv {
